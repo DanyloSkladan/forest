@@ -37,6 +37,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
+    position: relative;
 }
 
 .layer{
@@ -47,6 +49,9 @@ body{
     background-position: center;
 }
 
+.layers__base{
+    transform: translate3d(0, calc(var(--scrollTop) / 2), 0);
+}
 
 .main-article{
     min-height: 100vh;

@@ -1,3 +1,3 @@
-window.addEventListener('scrol', e =>{
-    document.bady.style.cssText = `--scrollTop: ${this.scrollY}px`
+window.addEventListener('scroll', e =>{
+    document.body.style.cssText = `--scrollTop: ${this.scrollY}px`
 })
